@@ -1,0 +1,13 @@
+.video__container{
+    background-color: black;
+    margin-top: 5rem;
+    padding: 50px;
+}
+
+.video__col{
+    margin: 1rem;
+}
+
+.col{
+    text-align: center;
+}
