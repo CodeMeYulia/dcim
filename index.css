@@ -18,9 +18,12 @@ main {
 }
 
 .header{
-background-color: #414141;
 height: auto;
 color: aliceblue;
+}
+
+.navbar{
+    height: 60px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -55,22 +58,18 @@ color: aliceblue;
 .py-lg-5 {
     padding-top: 6rem!important;}
 
-footer{
-    font-size:x-small;
-    text-align: center;
-}  
 
 .carousel{
     width: 60%;
-    margin: 5% auto;
+    margin: 3% auto;
 }
 
 footer{
-    background: #414141;
     height: 50px;
     padding: 20px;
     font-size: 0.7rem;
     color: aliceblue;
+    text-align: center;
 }
 
 
