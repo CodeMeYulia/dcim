@@ -9,7 +9,8 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
-h1{
+
+h1 {
     font-size: 44px;
 }
 
@@ -17,62 +18,64 @@ main {
     display: block;
 }
 
-.header{
-height: auto;
-color: aliceblue;
+.header {
+    height: auto;
+    color: aliceblue;
 }
 
-.navbar{
-    height: 60px;
+.navbar {
+    min-height: 60px;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: auto;
 }
 
-.publications{
+.publications {
     padding: 0 25px;
 }
 
-.row{
+.row {
     text-align: center;
 }
 
-.col{
+.col {
     padding: 10xp 20px;
 }
 
-.img-container{
+.img-container {
     background-color: aquaimg-container;
     height: auto;
 }
 
-.py-5{
+.py-5 {
     padding-bottom: 0;
 }
 
 .py-lg-5 {
-    padding-top: 6rem!important;}
+    padding-top: 6rem !important;
+}
 
 
-.carousel{
+.carousel {
     width: 60%;
     margin: 3% auto;
 }
 
-footer{
+footer {
     height: 50px;
     padding: 20px;
     font-size: 0.7rem;
     color: aliceblue;
     text-align: center;
 }
-
-
-
-
-
